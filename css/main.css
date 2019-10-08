@@ -1,0 +1,225 @@
+/***BASE STYLES***/
+
+body {
+	color:white;
+	font-family:'Roboto', sans-serif;
+	text-transform:capitalize;
+}
+
+#about, #work, #contact  {
+	height: 450px;
+	font-family:'Roboto', sans-serif;
+	color:white;
+}
+
+
+
+/*** GRID***/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.half-width{
+
+	width: 600px;
+    float: left;
+}
+
+.third-width {
+
+	width: 400px;
+    float: left;
+}
+
+
+/***HEADER***/
+
+header {
+	height:700px;
+    background:url('../img/img.png');
+    background-size: cover;
+}
+
+header h1 { 
+    padding: 0px 0;
+    padding-left:10px;
+    font-family:'Roboto', sans-serif;
+    color:#CD1845;
+    font-size:50px;
+    
+
+    
+    
+}
+
+nav {
+	float: right;
+	padding: 15px 40px;
+	
+
+}
+
+nav ul li {
+	display:inline-block;
+	
+}
+
+nav ul li {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:21px;
+	padding-left: 80px;
+	text-transform: bolder;
+}
+
+nav ul li a{
+	color: #CD1845;
+	text-decoration: none;
+}
+	
+header h2 {
+
+    width:1200px;
+    clear:both;
+    font-family:'Roboto', sans-serif;
+    font-size:70px;
+    line-height:80px; 
+    color:white;
+    padding: 110px 110px 20px 20px;
+    text-align: center;
+    
+}
+
+
+
+/****ABOUT***/
+
+#about .full-width {
+	padding: 50px ;
+}
+
+#about h2 {
+	font-family:'Roboto', sans-serif;
+	font-size: 40px;
+	padding-left:50px;
+	color:black;
+	text-align:center;
+}
+
+#about p {
+    font-size:21px;
+	color:black;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align:left;
+}
+
+/***WORK***/
+
+#work {
+	background-color:white;
+	text-align: center;
+}
+
+#work .full-width {
+	padding:50px 0;}
+	
+	#work h2 {
+	font-family:'Roboto', sans-serif;
+	font-size: 40px;
+	padding-left:50px;
+	padding-bottom: 70px;
+	color:black;
+	text-align:center;	
+}
+
+#work img {
+	padding-bottom: 30px;
+	
+}
+
+#work h3 {
+
+	font-size: 24px;
+	line-height: 32px;
+	width: 190px;
+	margin: 0 auto;
+	color:black;
+	
+
+}	
+
+#work p {
+	font-family:'Roboto', sans-serif;
+	font-size:18px;
+	line-height: 30px;
+	padding: 0 50px;
+	color:black;
+
+}
+
+/***CONTACT***/
+
+#contact {
+	background-color:white;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+}
+
+#contact h2 {
+    font-family:'Roboto', sans-serif; 
+    font-size: 40px;
+    line-height:44px;
+    color:black;
+    text-align:center;
+    padding-left:40px;
+    padding-top:200px;
+
+}
+#contact a {
+    text-decoration: none;
+    color: #C49075;
+    font-weight: bold;
+    font-size:28px;
+    text-align:left;
+    
+}
+
+#contact ul {
+    list-style: none;
+    
+}
+#contact ul li {
+     display:inline-table;
+     line-height:50px;
+     padding:10px;
+     width:40px;
+     clear:both;
+
+}
+
+#envelope {
+
+	width:80px;
+	padding:0 0 0 480px;
+}
+
+
+#instagram {
+	width:80px;
+}
+
+
+
+#contact #instagram #envelope{
+	padding:40px;
+	text-align:center;
+}
+
+
